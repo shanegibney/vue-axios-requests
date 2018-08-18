@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <h1>I am the child component</h1>
-    <input type="text" v-model="searchTerm">
+    Search titles: <input type="text" v-model="searchTerm">
     <h4> <a href="https://github.com/shanegibney/vue-axios-requests">return to repo</a> </h4>
     <div v-for="item in filteredPosts" :key="item.id">
       <h3>{{ item.title }}</h3>
