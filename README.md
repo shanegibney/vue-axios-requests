@@ -1,4 +1,4 @@
-[gh-pages](https://shanegibney.github.io/vue-axios-requests)
+[gh-pages](https://shanegibney.github.io/vue-axios-requests/)
 
 [Article on this topic on my blog](http://www.shanegibney.com/shanegibney/making-request-with-axios/)
 
