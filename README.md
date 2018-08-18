@@ -2,7 +2,7 @@
 
 Note: cannot do axios requests on gh-pages
 
-#Articles on this topic on my blog
+# Articles on this topic on my blog
 
 [Making requests with Axios](http://www.shanegibney.com/shanegibney/making-request-with-axios/)
 
