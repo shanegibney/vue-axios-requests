@@ -1,10 +1,11 @@
 <template lang="html">
   <div>
     <h1>I am the child component</h1>
+    <input type="text" v-model="searchTerm">
     <h4> <a href="https://github.com/shanegibney/vue-axios-requests">return to repo</a> </h4>
-    <div v-for="item in posts" :key="item.id">
+    <div v-for="item in filteredPosts" :key="item.id">
       <h3>{{ item.title }}</h3>
-      <p>{{ item.body }}</p>
+      <p>{{ item.body | snippet }}</p>
     </div>
   </div>
 </template>
@@ -15,7 +16,15 @@ export default {
   name: 'Child',
   data(){
     return {
-      posts: []
+      posts: [],
+      searchTerm: ''
+    }
+  },
+  computed: {
+    filteredPosts(){
+      return this.posts.filter(post => {
+         return post.title.match(this.searchTerm)
+      })
     }
   },
   created(){
