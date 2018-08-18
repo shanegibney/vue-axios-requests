@@ -5,7 +5,9 @@ Note: cannot do axios requests on gh-pages
 #Articles on this topic on my blog
 
 [Making requests with Axios](http://www.shanegibney.com/shanegibney/making-request-with-axios/)
+
 [Creating filters](http://www.shanegibney.com/shanegibney/vue-filters/)
+
 [Computed Properties](http://www.shanegibney.com/shanegibney/vue-computed-properties/)
 
 # vue-requests-axios
